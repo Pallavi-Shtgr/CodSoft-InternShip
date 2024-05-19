@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project1 Info with Image</title>
+  
+  <style>
+    /* Styles the body to center content vertically and add light black background */
+    body {
+      display: flex;
+      min-height: 100vh;
+      flex-direction: column; 
+      align-items: center;
+      justify-content: center;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f0c8c8;
+      font-family: 'Roboto', sans-serif;
+      font-size:medium;
+      font-display: flex;
+    }
+
+    /* Styles the image container to be bigger */
+    .image-container {
+      width: 300px; /* Adjust width as desired */
+      height: 300px; /* Adjust height as desired */
+      border: 1px solid #ccc;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 20px; 
+    }
+
+    /* Styles the image to fit within the container */
+    .image-container img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    /* Styles the project information section */
+    .project-info {
+      text-align: center;
+    }
+
+    /* Styles the button */
+    .git-button {
+      background-color: #044406;
+      border: none;
+      color: white;
+      padding: 8px 10px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 20px auto;
+      cursor: pointer;
+    }
+
+    /* Style for button hover */
+    .git-button:hover {
+      background-color: #27011b; /* Darker green on hover */
+    }
+    @keyframes animate {
+    100% {
+        transform: scaleX(1);
+    }
+}
+  </style>
+</head>
+<body>
+  <div class="image-container">
+    <img src="Images/port4.jpeg" alt="Project Image">
+  </div>
+
+  <div class="project-info">
+    <h2>Unleash the power of JavaScript with these engaging projects</h2>
+    <p>QR Code Scanner: Effortlessly scan QR codes with this JavaScript app! Point your camera, and it instantly decodes the information, saving you time and typos.<br><pre></pre>
+
+        Dictionary App: Never get stumped for words again! This handy JavaScript dictionary app provides quick definitions and synonyms right at your fingertips.<br><pre></pre>
+        
+        Weather App: Stay informed about the ever-changing weather with this JavaScript app. Get real-time forecasts and plan your day accordingly, all in a user-friendly interface.<br><pre></pre>
+        
+        Snake Game: Relive a classic! This nostalgic JavaScript game lets you control a hungry snake, gobbling up dots and avoiding obstacles. Simple yet addictive fun!<br><pre></pre>
+        
+        Tic Tac Toe: Challenge a friend or test your strategic skills against the AI in this classic JavaScript Tic Tac Toe game. Choose your X or O and see who emerges victorious.<br><pre></pre>
+        
+        Random Quote Generator: Get inspired with a daily dose of wisdom! This JavaScript app generates random quotes from famous figures, sparking creativity and motivation.</p>
+    <a href="https://github.com/Pallavi-Shtgr/MiniProjects-on-JS.git" target="_blank" class="git-button">View on Git</a>
+  </div>
+</body>
+</html>

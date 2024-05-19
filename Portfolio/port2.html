@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project1 Info with Image</title>
+  
+  <style>
+    /* Styles the body to center content vertically and add light black background */
+    body {
+      display: flex;
+      min-height: 100vh;
+      flex-direction: column; 
+      align-items: center;
+      justify-content: center;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #c8f0da;
+      font-family: 'Roboto', sans-serif;
+      font-size:medium;
+      font-display: flex;
+    }
+
+    /* Styles the image container to be bigger */
+    .image-container {
+      width: 1200px; /* Adjust width as desired */
+      height: 600px; /* Adjust height as desired */
+      border: 1px solid #ccc;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 20px; 
+    }
+
+    /* Styles the image to fit within the container */
+    .image-container img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    /* Styles the project information section */
+    .project-info {
+      text-align: center;
+    }
+
+    /* Styles the button */
+    .git-button {
+      background-color: #044406;
+      border: none;
+      color: white;
+      padding: 8px 10px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 20px auto;
+      cursor: pointer;
+    }
+
+    /* Style for button hover */
+    .git-button:hover {
+      background-color: #27011b; /* Darker green on hover */
+    }
+    @keyframes animate {
+    100% {
+        transform: scaleX(1);
+    }
+}
+  </style>
+</head>
+<body>
+  <div class="image-container">
+    <img src="Images/port2.png" alt="Project Image">
+  </div>
+
+  <div class="project-info">
+    <h2>LENS ON WILD </h2>
+    <p>Wildlife photographers confront a myriad of challenges that can hinder the quality of their work.
+         The unpredictable nature of animals poses a significant challenge, as they don't adhere to schedules, making it difficult to plan and capture specific shots. 
+         Additionally, the dynamic and sometimes hazardous environments in the wild add an extra layer of complexity to the photographer's task. A critical issue is the 
+         lack of knowledge among individuals eager to join the world of wildlife photography. Many enthusiasts lack the foundational skills necessary for success, such as 
+         understanding animal behavior, mastering camera equipment, and adapting to diverse ecosystems. The absence of accessible and reliable learning resources exacerbates 
+         this problem, leaving aspiring photographers overwhelmed and unsure about where to start. -> Outcomes: This project endeavors to make wildlife photography more accessible 
+         for beginners through a web-based learning platform. By combining educational resources, community support, and practical guidance, the goal is to empower individuals with a 
+         passion for wildlife to embark on their photography journey with confidence and enthusiasm.A Generous contribution will fund initiatives to help preserve the habitats, enabling enthusiasts 
+         to embark on their photography journey with confidence and enthusiasm</p>
+    <a href="https://github.com/Pallavi-Shtgr/Wildlife.git" target="_blank" class="git-button">View on Git</a>
+  </div>
+</body>
+</html>
+
+

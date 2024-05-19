@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project1 Info with Image</title>
+  
+  <style>
+    /* Styles the body to center content vertically and add light black background */
+    body {
+      display: flex;
+      min-height: 100vh;
+      flex-direction: column; 
+      align-items: center;
+      justify-content: center;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #c8f0da;
+      font-family: 'Roboto', sans-serif;
+      font-size:medium;
+      font-display: flex;
+    }
+
+    /* Styles the image container to be bigger */
+    .image-container {
+      width: 200px; /* Adjust width as desired */
+      height: 200px; /* Adjust height as desired */
+      border: 1px solid #ccc;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 20px; 
+    }
+
+    /* Styles the image to fit within the container */
+    .image-container img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    /* Styles the project information section */
+    .project-info {
+      text-align: center;
+    }
+
+    /* Styles the button */
+    .git-button {
+      background-color: #044406;
+      border: none;
+      color: white;
+      padding: 8px 10px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 20px auto;
+      cursor: pointer;
+    }
+
+    /* Style for button hover */
+    .git-button:hover {
+      background-color: #27011b; /* Darker green on hover */
+    }
+    @keyframes animate {
+    100% {
+        transform: scaleX(1);
+    }
+}
+  </style>
+</head>
+<body>
+  <div class="image-container">
+    <img src="Images/port3.jpeg" alt="Project Image">
+  </div>
+
+  <div class="project-info">
+    <h2>AGRI WEB HUB</h2>
+    <p><br>
+        This web platform empowers farmers and agricultural buyers to connect directly, eliminating the need for intermediaries.
+         Built with a user-friendly interface (HTML, CSS, JS), it facilitates seamless product listing, browsing, and purchasing. 
+         Farmers can effortlessly showcase their produce (photos, descriptions, pricing), while buyers can discover fresh, local options. 
+         The secure backend (PHP, MySQL) ensures smooth transaction processing and data management. This innovative platform fosters a 
+         transparent and efficient agricultural marketplace, benefitting both farmers and buyers.</p>
+    <a href="https://github.com/Pallavi-Shtgr/DBMS-MINI-PROJECT.git" target="_blank" class="git-button">View on Git</a>
+  </div>
+</body>
+</html>
+
+
